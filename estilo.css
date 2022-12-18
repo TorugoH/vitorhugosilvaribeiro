@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+body{
+    overflow: hidden;
+}
+#principal{
+    background-image: url('img/Verde-e-Preto-Tipográfico-Workshop-de-Diversidade-Webinar-Keynote-Apresentação.svg');
+    width: 100.9vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#rodape{
+    background-image: url('img/Verde-e-Preto-Tipográfico-Workshop-de-Diversidade-Webinar-Keynote-Apresentação.svg');
+    width: 100.9vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sobre{
+     width: 100.9vw;
+     height: 100vh;
+     display: flex;
+     background-color: #000000d4;
+}
+#portifolio{
+    width: 100.9vw;
+    height: 100vh;
+    display: flex;
+    background-color: #000000d4;
+    justify-content: flex-start;
+    align-items: center;
+}
+.carousel {
+    position: relative;
+    top: 2em;
+    right: -3em;
+}
+.carousel-item{
+    width: 70%;
+    left: 13vw;
+}
+#tituloSobre{ 
+    position: relative;
+    left: 50vw;
+    top: 17vh;
+    font-size: 40px;
+}
+#tituloPortifolio{
+    position: relative;
+    top: -6em;
+    left: 45vw;
+}
+#imgEu{
+    position: relative;
+    right: 3em;
+}
+#informacoes{
+    position: relative;
+    top: 11em;
+    margin: -76px 57px 10px 82px;
+    text-align: justify;
+
+}
+#habilidades{
+    position: relative;
+    top: 5.5em;
+    left: 11em;
+    width: 29vw;
+
+}
+h3{
+    color: #ffeb3bc7;
+}
+li {
+    list-style-type: none;
+  }
+#menu{
+    position: fixed;
+    width: 100vw;
+    top: 0px;
+    background: #8ea6ba1c;
+    height: 10vh;
+    z-index: 1;
+}
+#itemMenu{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 502px;
+    margin-right: 454px;
+    list-style: none;
+    font-size: 25px;
+    top: 1em;
+    position: relative;
+}
+#conteudoPrincipal{
+    position: relative;
+    left: 11vw;
+    font-size: 50px;
+}
+#caminhoContatos{
+    font-size: 20px;
+    position: relative;
+    margin: 0 auto;
+    padding: 7px;
+    color: #ffeb3bc7;
+    background-color: transparent;
+    border-color:#ffeb3bc7; 
+}
+#caminhoContatos:hover{
+    background-color: #ffeb3bc7;
+    color: aliceblue;
+}
+#imgCss{
+    position: relative;
+    left: 18vw;
+    width: 100px;
+}
+#imgJs{
+    width: 100px;
+    position: relative;
+    top: 16em;
+}
+#imgHtml{
+    position: relative;
+    left: 30vw;
+    top: 19vh;
+    width: 100px;
+}
+#imgGit{
+    width: 100px;
+    position: relative;
+    left: 50vw;
+    bottom: 8em;
+}
+#nome{
+    color: #ffeb3bc7;
+}
+.ativo,.sessao:hover{
+    color: #ffeb3bc7 ;
+}
+.contatos{
+    width: 40px;
+    height: 40px;
+}
+#linkInsta{
+    position: relative;
+    left: 3em;
+}
+#linkLinkdin{
+    position: relative;
+    left:1em;
+}
+#linkGit{
+    position: relative;
+    right: 2em;
+}
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+a{
+    color: azure;
+    text-decoration: none;
+}
+h1,p,ul,h5{
+    color: azure;
+}
+#Softskills{
+    position: relative;
+    bottom: 8em;
+    left: 24em;
+
+
+}
+@media only screen and (min-width: 320px) and (max-width:480px){    
+    #principal {
+        width: 101vw;
+    }
+    
+    #conteudoPrincipal {
+        left: 7vw;
+        bottom: 3em;
+    }
+    #imgGit {
+        
+        left: -85vw;
+    bottom: -7em;
+    }
+    #imgCss {
+        left: -77vw;
+        top: 7em;
+    }
+    
+    #imgHtml {
+        position: relative;
+        left: -72vw;
+        top: 14vh;
+        width: 100px;
+    }
+    #imgJs{
+        right: 40em;
+    }
+    #itemMenu {
+       
+        margin-left: 502px;
+        margin-right: 454px;
+        font-size: 19px;
+    }
+}

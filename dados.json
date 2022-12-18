@@ -1,0 +1,7 @@
+{
+    "dado":{
+    "titulo":"cashGrab",
+    "tela":["img/cashGrab-despesas.png","img/cashGrab-despesas.png"]
+},
+"type": "module"
+}
